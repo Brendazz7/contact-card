@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body{
+            margin: 0%;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(gfs.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 185, 220);
+        
+        }
+        .card{
+            background-color: ghostwhite;
+            padding: 20px;
+            border-radius: 20px;
+            text-align: center;
+            width: 320px;
+            box-shadow: 0 20px 20px 
+        }
+        .imgperfil{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid rgb(255, 185, 220);
+            margin-bottom: 12px;
+            object-fit: fill;
+
+        }
+        .botoes {
+            margin: 20px 0;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .btn {
+            padding: 10px 10px;
+            border-radius: 6px;
+            background-color: hotpink;
+            color: ghostwhite;
+            border: 1px solid rgb(255, 96, 123);
+            cursor: pointer;
+            font-size: 16px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            opacity: 8.8;
+            background: rgb(255, 123, 215);
+        }
+        .skills{
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .tags{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .tag{ border: 1px solid rgb(250, 166, 243);
+            padding: 5px 10px;
+            border-radius: 4px;}
+            .social-media {
+                margin-top: 20px;
+                display: flex;
+                justify-content: center;
+                gap: 15px;
+                font-size: 20px;
+            }
+            .social-media i{
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            .social-media i:hover{
+                color: hotpink;
+                transform: scale(1.2);
+            }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="agorasim.png" alt="foto de perfil" class="imgperfil">
+        <h2>Brenda Mendes Facela</h2>
+        <div class="local">Montes Claros</div>
+        <div class="job">Desempregada</div>
+
+        <div class="botoes">
+            <br>
+            <button class="btn primario">Mensagem</button>
+            <button class="btn secundario">Follow</button>
+        </div>
+        <div class="skills">
+            <h3>Habilidades</h3>
+            <div class="tags">
+                <span class="tag">Desenhista digital</span><br>
+                <span class="tag">Hardware</span><br>
+                <span class="tag">Programacão</span><br>
+                <span class="tag">Redes</span><br>
+                <span class="tag">CSS</span><br>
+                <span class="tag">HTML</span><br>
+                <span class="tag">PYTHON</span><br>
+                <span class="tag">Fazer cabo de rede</span><br>
+            </div>
+        </div>
+        <div class="social-media">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-github"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+    </div>
+    
+</body>
+</html>
